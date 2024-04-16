@@ -29,7 +29,7 @@ export async function getServerSideProps(context) {
         return detail;
       }
     });
-    console.log(item);
+    // console.log(item);
     if (time && difficulty && timeResult.length &&  difficultyResult.length) {
       return item;
     } else if (!time && difficulty && difficultyResult.length) {
